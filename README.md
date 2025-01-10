@@ -30,8 +30,8 @@ Make sure you have the following installed on your system:
 # **Instructions to Run the Project Locally**
 
 ## 1. Clone the Repository
-- git clone https://github.com/your-username/your-repo-name.git
-- cd your-repo-name
+- git clone https://github.com/KrupaMistry18/Financial-Data-Filtering-App.git
+- cd Financial-Data-Filtering-App
 
 ## 2. Backend Setup
 - cd backend

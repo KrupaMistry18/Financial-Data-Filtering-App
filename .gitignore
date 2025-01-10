@@ -1,0 +1,43 @@
+# Node.js / React-related files
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Python build and distribution files
+*.egg-info/
+*.dist-info/
+
+# Logs
+*.log
+

@@ -60,4 +60,6 @@ npm start
 # The frontend will run at: http://localhost:3000
 
 
-# Deployed URL
+## Deployed URL
+
+https://financial-data-app-16a02.web.app/

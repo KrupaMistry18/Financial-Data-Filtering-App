@@ -28,3 +28,36 @@ Make sure you have the following installed on your system:
 ---
 
 ### **Instructions to Run the Project Locally**
+
+## 1. Clone the Repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+## 2. Backend Setup
+cd backend
+
+# Create and activate a virtual environment (optional, but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the FastAPI server
+uvicorn main:app --reload
+
+# The backend will run at: http://127.0.0.1:8000
+
+## 3. Frontend Setup
+cd ../frontend
+
+# Install Node.js dependencies
+npm install
+
+# Start the React app
+npm start
+
+# The frontend will run at: http://localhost:3000
+
+
+# Deployed URL

@@ -34,7 +34,7 @@ Make sure you have the following installed on your system:
 - cd Financial-Data-Filtering-App
 
 ## 2. Backend Setup
-- cd backend
+- cd app-backend
 
 ## Create and activate a virtual environment (optional, but recommended)
 - python -m venv venv
@@ -50,7 +50,7 @@ Make sure you have the following installed on your system:
 ## The backend will run at: http://127.0.0.1:8000
 
 ## 3. Frontend Setup
-- cd ../frontend
+- cd ../app-frontend
 
 ## Install Node.js dependencies
 - npm install

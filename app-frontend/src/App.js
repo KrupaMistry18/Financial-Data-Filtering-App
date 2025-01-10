@@ -8,10 +8,14 @@ const App = () => {
   const [filterParams, setFilterParams] = useState({});
   const [sortParams, setSortParams] = useState({ sort_by: "", sort_order: "" });
 
-  const allDataApiUrl = 'http://127.0.0.1:8000/all-financial-data/';
-  const filterApiUrl = 'http://127.0.0.1:8000/filtered-financial-data/';
-  const sortApiUrl = 'http://127.0.0.1:8000/sorted-financial-data/';
+  // const allDataApiUrl = 'http://127.0.0.1:8000/all-financial-data/';
+  // const filterApiUrl = 'http://127.0.0.1:8000/filtered-financial-data/';
+  // const sortApiUrl = 'http://127.0.0.1:8000/sorted-financial-data/';
 
+  const allDataApiUrl = 'https://financial-data-filtering-app-xs0u.onrender.com/all-financial-data/';
+  const filterApiUrl = 'https://financial-data-filtering-app-xs0u.onrender.com/filtered-financial-data/';
+  const sortApiUrl = 'https://financial-data-filtering-app-xs0u.onrender.com/sorted-financial-data/';
+  
   const fetchAllData = async () => {
     try {
       const response = await axios.get(allDataApiUrl);
